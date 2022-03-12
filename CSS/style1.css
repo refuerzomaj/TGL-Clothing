@@ -1,0 +1,91 @@
+/*
+desktop:1200px;
+laptop:1024px;
+table:768px;
+phone:480px;
+*/
+
+*{
+	box-sizing:border-box;
+}
+html,body{
+	margin:0;
+	padding:0;
+}	
+.wrap
+{
+	background-color:#cb0101;
+	width: 100%;
+	display: block;
+}
+.header
+{
+    width:90%;
+}
+.made_in
+{
+	width: 100%;
+}
+.thegoodlife
+{
+	width:100%;
+}
+.streets
+{
+	width: 100%;
+}
+.mmxii
+{
+	width:5%;
+	background-color: black;
+}
+.images img
+{
+	width: 25%;
+	margin-left: 2%;
+	margin-right: 2%;
+	border: 1px solid black;
+	margin-top: 6%;
+}
+@media only screen and (max-width:2000px)
+{
+	.header
+	{
+		padding-top: .5%;
+		padding-left: 40%;
+	}
+	.made_in
+	{
+		max-width: 12%;
+		padding-bottom: 1%;
+	}
+	.thegoodlife
+	{
+		max-width: 15%;
+		padding-bottom: 1%;
+	}
+	.streets
+	{
+		margin-left: -2px;
+		max-width: 12.5%;
+		padding-bottom: 1%;
+	}
+	.mmxii
+	{
+		
+		margin-right: -20px;
+		margin-left: -23%;
+		max-width: 10%;
+	}
+	.images img
+	{
+		min-width: 10%;
+	}
+}
+@media only screen and (max-width:768px)
+{
+	.images img
+	{
+		margin-left: 70px;
+	}
+}
